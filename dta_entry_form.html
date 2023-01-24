@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 2</title>
+  </head>
+  <body>
+    <!-- heading 1 -->
+    <h1 align="center">Created by Ankit</h1>
+
+    <!-- form tag -->
+    <form>
+      <!-- Fieldset makes the field border  -->
+      <fieldset>
+        <!-- Legend for naming the form -->
+        <legend>Student Details</legend>
+
+        <!-- Label -->
+        <label for="name">Student Name:</label>
+        <!-- for and id should be same  -->
+        <!-- name is used ,when we user gives an input and send to serve , so with the help of name we are able to receive the user's input -->
+        <input type="text" name="Username" id="name" />
+        <br />
+        <br />
+        <!-- br for line break -->
+
+        <!-- label -->
+        <label for="email">Email:</label>
+        <!-- for and id should be same  -->
+        <!-- name is used ,when we user gives an input and send to serve , so with the help of name we are able to receive the user's input -->
+        <input type="email" name="Usermail" id="email" />
+        <br />
+        <br />
+        <!-- br for line break -->
+
+        <!-- choosing gender with the help of radio button-->
+        Gender:
+        <br />
+        <!-- &nbsp is used to take one tab space  -->
+        &nbsp;&nbsp;
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" />
+        <!-- for and id should be same  -->
+        <!-- name is used ,when we user gives an input and send to serve , so with the help of name we are able to receive the user's input -->
+        <br />
+        &nbsp;&nbsp; <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" />
+        <br />
+        &nbsp;&nbsp; <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" />
+        <br /><br />
+
+        <!-- choosing subjects with the help of "checkbox" -->
+        Subjects:
+        <label for="phy">Physics</label>
+        <input type="checkbox" name="physics" id="phy" />
+        &nbsp;
+
+        <label for="che">Chemistry</label>
+        <input type="checkbox" name="physics" id="che" />
+        &nbsp;
+
+        <label for="mat">Maths</label>
+        <input type="checkbox" name="Maths" id="mat" />
+        &nbsp;
+
+        <label for="phyedu">Physical Education</label>
+        <input type="checkbox" name="physical eduction" id="phyedu" />
+        &nbsp;
+
+        <label for="cs">Computer Science</label>
+        <input type="checkbox" name="cs" id="cs" />
+        <br /><br />
+
+        <!-- Selecting states with the help of select tag and the option tag is used inside the select tag. -->
+        Select State:
+        <select>
+          <option value="">Uttarakhand</option>
+          <option value="">Uttarpradesh</option>
+          <option value="">Bihar</option>
+          <option value="">Madhyapradesh</option>
+          <option value="">Andhrapradesh</option>
+          <option value="">Aruranchalpradesh</option>
+          <option value="">Assam</option>
+          <option value="">Chattisgarh</option>
+          <option value="">Gujarat</option>
+          <option value="">Haryana</option>
+          <option value="">Kerala</option>
+          <option value="">Maharastra</option>
+        </select>
+        <br /><br />
+
+        <!-- textarea tag is used  -->
+        <label for="comments">Comments</label>
+        <textarea
+          name=""
+          id="comments"
+          cols="30"
+          rows="10"
+          name="usercomments"
+        ></textarea>
+        <br />
+        <br />
+
+        <!-- AT last submit and reset tags are used -->
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
